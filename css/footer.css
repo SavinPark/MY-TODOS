@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 25px;
+}
+
+footer .save-btn {
+  /* display: none; */
+}
+footer .add-btn i {
+  color: #FEB662; 
+}
+
+footer .save-btn.on {
+  width: 30vw;
+  height: 48px;
+  color: #fff;
+  background: #FEB662;
+  border: none;
+  cursor: pointer;
+}
+footer.on .add-btn i.on {
+  color: rgba(245, 57, 57, 0.85);
+  position: absolute;
+  right: 0;
+  transform: rotate(45deg);
+  cursor: pointer;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY TODOS</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="date-month-year">
+        <div id="date">25</div>
+        <div class="month-year">
+          <div id="month">March</div>
+          <div id="year">2021</d>
+        </div>
+      </div>
+      <div class="day-time">
+        <div id="day">Saturday</div>
+        <div id="time">06:45 pm</div>
+      </div>
+    </header>
+    <main>
+      <section class="todos">
+        <h1>오늘의 할 일</h1>
+        <ul>
+          <li class="todo">
+            <div class="todo--left">
+              <i class="far fa-check-circle circle-btn"></i>
+              할 일 1
+            </div>
+            <div class="todo--right">
+              <i class="fas fa-pen edit-btn"></i>
+              <i class="fas fa-trash remove-btn"></i>
+            </div>
+          </li>
+          <li class="todo">
+            <div class="todo--left">
+              <i class="far fa-circle circle-btn"></i>
+              할 일 2
+            </div>
+            <div class="todo--right">
+              <i class="fas fa-pen edit-btn"></i>
+              <i class="fas fa-trash remove-btn"></i>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="form">
+        <form action="">
+          <div class="title">
+            <input type="text" placeholder="제목">
+          </div>
+          <div class="memo">
+            <h2>Memo</h2>
+            <textarea type="text" placeholder="내용"></textarea>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="on">
+      <button type="submit" class="save-btn on">Save</button>
+      <div class="add-btn">
+        <i class="fas fa-plus-circle fa-3x on"></i>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Javascript -->
+  <script src="./todolist.js"></script>
+</body>
+</html>

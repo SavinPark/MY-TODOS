@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  position: relative;
+  margin-bottom: 40px;
+}
+header .date-month-year {
+  display: flex;
+}
+header .day-time {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+}
+#date {
+  color: #654413;
+  font-size: 56px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+#month, #year {
+  color: #BCA486;
+  font-size: 28px;
+  font-weight: 600;
+}
+#year {
+  margin-top: 5px;
+}
+
+#day {
+  color: #654413;
+  font-size: 30px;
+  font-weight: 700;
+}
+#time {
+  color: #C0BCBC;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: end;
+  margin-top: 5px;
+}
