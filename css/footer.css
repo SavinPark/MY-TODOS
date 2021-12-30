@@ -6,13 +6,15 @@ footer {
 }
 
 footer .save-btn {
-  /* display: none; */
+  display: none;
 }
 footer .add-btn i {
   color: #FEB662; 
+  cursor: pointer;
 }
 
 footer .save-btn.on {
+  display: block;
   width: 30vw;
   height: 48px;
   color: #fff;

@@ -1,30 +1,33 @@
 /* TODOS */
 main .todos {
-  /* display: none; */
+  display: none;
+}
+main .todos.on {
+  display: block;
   color: #8B8888;
   font-size: 24px;
   font-weight: 500;
 }
-main .todos h1 {
+main .todos.on h1 {
   font-size: 30px;
   font-weight: 700;
   color: #FEB662;
   margin-bottom: 30px;
 }
-main .todos .todo {
+main .todos.on .todo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
   cursor: pointer;
 }
-main .todos .todo .todo--left i {
+main .todos.on .todo .todo--left i {
   color: #FEB662;
   margin-right: 10px;
 } 
-main .todos .todo .todo--right i {
+main .todos.on .todo .todo--right i {
   color: #E5E5E5;
   margin-left: 20px;
 }
-main .todos .todo .todo--right i:hover  {
+main .todos.on .todo .todo--right i:hover  {
   color: #8B8888;
 }
